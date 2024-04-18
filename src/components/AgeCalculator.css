@@ -1,0 +1,293 @@
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.age-calculator {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.text-label {
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-style: normal;
+  color: #6a6a6b;
+  font-size: 14px;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box,
+input {
+  display: flex;
+  vertical-align: middle;
+  letter-spacing: 1px;
+  font-weight: 700;
+  border: 2px solid #cecece;
+  padding: 10px 10px 10px 20px;
+  border-radius: 10px;
+  font-size: 1.875rem;
+  width: 80%;
+}
+
+input[type="text"]::placeholder {
+  color: #a0a0a0;
+}
+
+.text-box:focus,
+input[type="text"]:focus {
+  border: 2px solid #844ef8;
+  border-color: none;
+  box-shadow: none;
+  outline: 0 none;
+}
+
+span {
+  color: #844ef8;
+  letter-spacing: 10px;
+}
+
+.result {
+  font-family: "Poppins", sans-serif;
+  margin-top: -50px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  font-size: 100px;
+  font-style: italic;
+}
+
+.arrow {
+  background-color: #000000;
+  border-radius: 50%;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  background-color: #844ef8;
+  transition: 0.4s;
+}
+
+hr {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.age-calculator-body {
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 2rem 2rem 9rem 2rem;
+  width: 60%;
+}
+
+.container-1 {
+  width: 100vh;
+  height: 100vh;
+}
+.date-input {
+  width: 80%;
+}
+
+h6 {
+  padding-top: 20px;
+  color: rgb(218, 50, 50) !important;
+  font-style: italic;
+  visibility: hidden;
+}
+
+@media all and (max-width: 768px) {
+  /* screen size until 500px */
+  .age-calculator-body {
+    font-size: 0.8em; /* 0.8x default size */
+  }
+
+  .arrow {
+    justify-content: center;
+  }
+  .date-input {
+    width: 100%;
+  }
+  .text-box,
+  input {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .result {
+    font-size: 50px;
+    margin-top: -20px;
+  }
+
+  .age-calculator-body {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 2rem 2rem 5rem 2rem;
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+  }
+
+  .arrow {
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    width: auto;
+  }
+
+  img.arrow {
+    display: inline;
+    width: 52px;
+    position: absolute;
+  }
+
+  .divider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+  }
+
+  hr {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .text-label {
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-style: normal;
+    color: #6a6a6b;
+    font-size: 13px;
+  }
+
+  .text-box,
+  input {
+    padding: 10px 10px 10px 10px;
+
+    display: flex;
+    vertical-align: middle;
+    font-size: 1.375rem;
+    width: 100%;
+  }
+  .nopadding {
+    padding: 2px !important;
+    margin: 0 !important;
+  }
+
+  .mobile-center {
+    display: flex;
+    justify-content: center;
+  }
+}
