@@ -104,7 +104,7 @@ const AgeCalculator = () => {
             <img
               onClick={calculateAge}
               className="arrow"
-              src="//assets/icon-arrow.svg"
+              src="https://github.com/ryanalfredtaganas/AgeCalculatorChallengeByFrontEndMentor/blob/main/src/assets/icon-arrow.svg"
               alt=""
               srcset=""
             />
